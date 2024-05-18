@@ -1,0 +1,96 @@
+
+:root {
+    --bg-primary: #000000;
+    --text-light: #FFFFFF;
+    --text-dark: #1D1D1F;
+    --title-primary-color: #F5F5F7;
+    --subtitle-color: #6E6E73;
+    --action-color: #2997FF;
+    --spirited-main-color: #DED2B9;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+   background: linear-gradient(rgb(11, 9, 90),  rgb(128, 128, 224));
+}
+
+
+header{
+    background-color: transparent;
+    color: var(--text-light);
+    height: fit-content;
+    opacity: 0.9;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 1.5rem;
+}
+
+header nav ul{
+    margin: 0 auto;
+    width: 100;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0 2rem;
+}
+
+header nav ul li{
+    width: 100;
+    height: 2rem;
+    padding: 0 0.75rem;
+    font-size:1.5rem;
+    cursor: pointer;
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    position: absolute;
+    left: 2rem;
+    top: 0.5rem;
+
+}
+
+
+.redes-sociais{
+    position: absolute;
+    right: 0;
+    top: 1.5rem;
+    
+}
+
+
+.bi-instagram{
+    color: deeppink;
+}
+
+.bi-facebook{
+    color: blue;
+}
+
+.bi-whatsapp{
+    color: forestgreen;
+}
+
+
+footer{
+    background-color: rgb(83, 93, 211);
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
