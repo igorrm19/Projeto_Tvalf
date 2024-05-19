@@ -1,13 +1,13 @@
 #main_services{
-    color: rgb(83, 3, 56);;
+    color: rgb(83, 31, 3);;
     font-family:Georgia, 'Times New Roman', Times, serif;
     padding: 2.5rem;
-    margin: 2rem;
+    margin: 1rem;
     position: absolute;
     left: 50px;
-    top: 600px;
+    top: 700px;
     font-size: calc(0.600rem + .9vw);
-    font-weight: 500;
+    font-weight: 700;
 }
 
 
@@ -30,25 +30,50 @@
 
 #h2-services-fill{
     margin-top: -50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 
 .h-main{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 1rem;
+    font-size: calc(0.600rem + .9vw);
 }
 
 
 
+.bi-piggy-bank-fill{
+    color: rgb(160, 12, 91);
+    height: 200px;
+    width: 200px;
+    margin-top: 70px;
+    
+}
+
+
+.bi-piggy-bank-fill:hover{
+    color: rgb(158, 115, 9);
+}
+
+
+#h2-mainT{
+   line-height: 370px;
+}
 
 
 
+.h-mainT{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 3.5rem;
+    margin: 1rem;
+    font-size: calc(0.600rem + .9vw);
+    margin-top: -250px;
+    margin-left: 300px;
+}
 
-
-
-
-
-
+.div-main{
+    margin-top: -350px;
+}
 
 
 #logo-text{
