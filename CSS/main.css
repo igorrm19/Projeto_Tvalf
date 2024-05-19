@@ -1,0 +1,60 @@
+#main_services{
+    color: rgb(83, 3, 56);;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 2.5rem;
+    margin: 2rem;
+    position: absolute;
+    left: 50px;
+    top: 600px;
+    font-size: calc(0.600rem + .9vw);
+    font-weight: 500;
+}
+
+
+
+.bi-lightbulb-fill{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    margin-left: 650px;
+    margin-top: -150px;
+}
+
+
+.bi-lightbulb-fill:hover{
+    color: black;
+}
+
+#h2-services-fill{
+    margin-top: -50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.h-main{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#logo-text{
+    position: absolute;
+    left: 100px;
+    width: 150px;
+    border-radius: 0;
+
+}

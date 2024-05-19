@@ -6,6 +6,8 @@
 
     <link rel="stylesheet" href="./CSS/index.css">
     <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="./src/index.js">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,11 +21,12 @@
     <header id="home">
         <nav>
             <ul>
-                <li><img class="logo" src="./public/Logo-ft-s-fundo.png" alt="" srcset=""></li>
+                <li><img  class="logo" src="./public/Logo-ft-s-fundo.png" alt="" srcset=""></li>
+                <li><img id="logo-text"  class="logo" src="./public/logo-text-s-fundo.png" alt="" srcset=""></li>
                 <li> <a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home">About</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
 
             <ul class="redes-sociais">
@@ -61,24 +64,46 @@
                 </a></li>
             </ul>
         </nav>
+        <hr>
     </header>
 
-    <hr>
 
     <main>
         <section id="about">
-
+          
         </section>
 
         <section  id="services">
-
+            <div id="main_services">
+                <div>
+                  <h1 class="h-main" style="line-height: 2.5;">Avançe seu empreendimento</h1>
+                  <h3 class="h-main">Com a Tevalf, você resolve todos os problemas. <br> Transforme desafios em oportunidades com <br> soluções simples e eficazes.</h3>
+              </div>
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                     id="luz" 
+                     onclick="click()"
+                     width="16" 
+                     height="16" 
+                     fill="currentColor" 
+                     class="bi-lightbulb-fill" 
+                     viewBox="0 0 16 16">
+                    <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5"/>
+                </svg>
+                <h2 id="h2-services-fill" class="bi-lightbulb-fill" style="color: rgb(245, 98, 6); ">Innovation</h2>
+              </div>
+            </div>
         </section>
     </main>
 
     <footer id="contact">
-    a
+    b
     </footer>
 </body>
+
+
+<script defer src="./src/index.js"></script>
+
 </html>
 
 
