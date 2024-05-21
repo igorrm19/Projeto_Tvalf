@@ -9,9 +9,9 @@
 }
 
 
+
 .empresas-parceiras{
     display: flex;
-    text-align: var(--centro);
     justify-content: var(--centro);
     align-items: var(--centro);
     flex-direction: column;
@@ -26,8 +26,7 @@
 .row{
     justify-content: space-between;
     display: flex;
-    width: var(--tamanho-se-ajusta-ao-tamanho-do-elemento-pressente);
-    height: var(--tamanho-se-ajusta-ao-tamanho-do-elemento-pressente);
+    
 }
 
 

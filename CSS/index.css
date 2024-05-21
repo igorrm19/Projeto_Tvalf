@@ -9,6 +9,8 @@
     /*O root cria variaveis deixa mais facil entender certas variaveis e pode ser usado quando uma variavel se repete muito*/
 }
 
+
+
 html, body{
     width: 100%;
     height: 100%;
@@ -81,27 +83,6 @@ svg:hover{
     top: 0.5rem;
 
 }
-
-
-.redes-sociais{
-    position: absolute;
-    right: 0;
-    top: 1.5rem;
-}
-
-
-.bi-instagram{
-    color: deeppink;
-}
-
-.bi-facebook{
-    color: blue;
-}
-
-.bi-whatsapp{
-    color: forestgreen;
-}
-
 
 
 #logo-text{
