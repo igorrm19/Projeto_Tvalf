@@ -12,6 +12,7 @@
 
 
 footer{
+    position: absolute;
     background: linear-gradient( var(--cor-principal));
     left: 0;
     text-align: var(--centro);

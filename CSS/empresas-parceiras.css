@@ -1,0 +1,90 @@
+:root {
+    --cor-principal: rgb(7, 7, 110), rgb(15, 15, 180);
+    --cor-secundaria: rgb(111, 123, 227), rgb(148, 153, 219);
+    --trasparente: transparent;
+    --tamanho-se-ajusta-ao-tamanho-do-elemento-pressente: fit-content;
+    --centro: center;
+    --text-light: #FFFFFF;
+    /*O root cria variaveis deixa mais facil entender certas variaveis e pode ser usado quando uma variavel se repete muito*/
+}
+
+
+.empresas-parceiras{
+    display: flex;
+    text-align: var(--centro);
+    justify-content: var(--centro);
+    align-items: var(--centro);
+    flex-direction: column;
+}
+
+.empresas-parceiras h1{
+    color: rgb(93, 6, 42);
+    margin-top: 100px;
+    
+}
+
+.row{
+    justify-content: space-between;
+    display: flex;
+    width: var(--tamanho-se-ajusta-ao-tamanho-do-elemento-pressente);
+    height: var(--tamanho-se-ajusta-ao-tamanho-do-elemento-pressente);
+}
+
+
+.card{
+    display: flex;
+    text-align: var(--centro);
+    justify-content: var(--centro);
+    align-items: var(--centro);
+    height: 17rem;
+    width: 15rem;
+    background-color: var(--trasparente);
+    padding: 5px;
+    margin: 70px;
+    border-radius: 10px;
+
+    transition: box-shadow 0.7s ease;
+}
+
+.card:hover{
+    box-shadow: 0 4px 6px rgb(0, 0, 0);
+    height:17rem + 20px;
+    width: 15rem + 20px;
+}
+
+
+.card-2{
+    display: flex;
+    text-align: var(--centro);
+    justify-content: var(--centro);
+    align-items: var(--centro);
+    height: 17rem;
+    width: 15rem;
+    background-color: var(--trasparente);
+    padding: 5px;
+    margin: 70px;
+    margin-top: 100px;
+    border-radius: 10px;
+    margin-top: -20px;
+   
+    transition: box-shadow 0.7s ease;
+}
+
+.card-2:hover{
+    box-shadow: 0 4px 6px rgb(0, 0, 0);
+    height: 17rem  + 20px;
+    width: 15rem  + 20px;
+}
+
+
+button{
+    background-color: var(--trasparente);
+    border-radius: 2rem;
+    margin-top: 100px;
+    background-color: blueviolet;
+    width: 12rem;
+    font-size: 1rem;
+}
+
+
+
