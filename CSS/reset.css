@@ -1,3 +1,9 @@
+/*A parte de reset é responsavel por resetar estilos padroes do google que podem atrapalhar o funcionamento
+  do site como margin e padding e tambem é responsavel por definir elemento que serao padrao no site como
+  a fonte do texto e o box
+*/
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +11,3 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-/*A parte de reset é responsavel por resetar estilos padroes do google que podem atrapalhar o funcionamento
-  do site como margin e padding e tambem é responsavel por definir elemento que serao padrao no site como
-  a fonte do texto e o box
-*/

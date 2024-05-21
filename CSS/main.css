@@ -62,7 +62,7 @@
 }
 
 
-.h-main{
+.h-main-luz{
     padding: 1rem;
     font-size: calc(0.600rem + .9vw);
 }
@@ -83,13 +83,13 @@
 }
 
 
-#h2-mainT{
+#h1-main-porco{
    line-height: 370px;
 }
 
 
 
-.h-mainT{
+.h-main-porco{
     color: rgb(54, 8, 96);
     padding: 3.5rem;
     margin: 0.3rem;
