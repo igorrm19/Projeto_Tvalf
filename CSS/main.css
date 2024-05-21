@@ -1,6 +1,35 @@
+
+
+:root {
+    --cor-principal: rgb(7, 7, 110), rgb(15, 15, 180);
+    --cor-secundaria: rgb(111, 123, 227), rgb(148, 153, 219);
+    --trasparente: transparent;
+    --tamanho-se-ajusta-ao-tamanho-do-elemento-pressente: fit-content;
+    --centro: center;
+    --text-light: #FFFFFF;
+    /*O root cria variaveis deixa mais facil entender certas variaveis e pode ser usado quando uma variavel se repete muito*/
+}
+
+
+
+
+#about{
+    height: 550px;
+}
+
+
+
+#services{
+    height: 1000px;
+    background: linear-gradient(var(--cor-secundaria));
+    margin-top: -32px; /*Teve um pequeno bug na parte de services então tive que subir o lemento para cima*/
+}
+
+
+
+
 #main_services{
     color: rgb(83, 31, 3);;
-    font-family:Georgia, 'Times New Roman', Times, serif;
     padding: 2.5rem;
     margin: 1rem;
     position: absolute;
@@ -15,10 +44,10 @@
 .bi-lightbulb-fill{
     color: black;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-    width: 200px;
+    align-items: var(--centro);
+    justify-content: var(--centro);
+    height: 200px;  
+    width:200px; 
     margin-left: 650px;
     margin-top: -150px;
 }
@@ -30,12 +59,10 @@
 
 #h2-services-fill{
     margin-top: -50px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 
 .h-main{
-    font-family:Georgia, 'Times New Roman', Times, serif;
     padding: 1rem;
     font-size: calc(0.600rem + .9vw);
 }
@@ -63,23 +90,16 @@
 
 
 .h-mainT{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(54, 8, 96);
     padding: 3.5rem;
-    margin: 1rem;
+    margin: 0.3rem;
     font-size: calc(0.600rem + .9vw);
     margin-top: -250px;
     margin-left: 300px;
 }
 
+
 .div-main{
     margin-top: -350px;
 }
 
-
-#logo-text{
-    position: absolute;
-    left: 100px;
-    width: 150px;
-    border-radius: 0;
-
-}

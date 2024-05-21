@@ -1,0 +1,33 @@
+
+:root {
+    --cor-principal: rgb(7, 7, 110), rgb(15, 15, 180);
+    --cor-secundaria: rgb(111, 123, 227), rgb(148, 153, 219);
+    --trasparente: transparent;
+    --tamanho-se-ajusta-ao-tamanho-do-elemento-pressente: fit-content;
+    --centro: center;
+    --text-light: #FFFFFF;
+    /*O root cria variaveis deixa mais facil entender certas variaveis e pode ser usado quando uma variavel se repete muito*/
+}
+
+
+
+footer{
+    background: linear-gradient( var(--cor-principal));
+    left: 0;
+    text-align: var(--centro);
+    padding: 10px;
+    z-index: 1;
+    height:var(--tamanho-se-ajusta-ao-tamanho-do-elemento-pressente);
+    width: 100%;
+}
+
+
+
+.redes-sociais-2{
+    display: flex;
+    align-items:  var(--centro);
+    cursor: pointer;
+    list-style: none;
+    margin: 1.5rem;
+    gap: 2rem; /*Propiedade do fles, o msmo que espaçamento*/
+}

@@ -1,6 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Jersey 25';
+    box-sizing: border-box; /*Mantem  as dimensoes originais do site*/
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+/*A parte de reset é responsavel por resetar estilos padroes do google que podem atrapalhar o funcionamento
+  do site como margin e padding e tambem é responsavel por definir elemento que serao padrao no site como
+  a fonte do texto e o box
+*/
