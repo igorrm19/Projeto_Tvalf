@@ -9,5 +9,8 @@
     padding: 0;
     box-sizing: border-box; /*Mantem  as dimensoes originais do site*/
     font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+
 }
+
 

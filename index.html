@@ -17,6 +17,8 @@
     <title>Tevalf consultoria</title>
     <link rel="icon" href="./public/Logo-ft-s-fundo.png" type="image/png">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 </head>
 <body>
     
@@ -25,10 +27,10 @@
             <ul>
                 <li><img  class="logo" src="./public/Logo-ft-s-fundo.png" alt="" srcset=""></li>
                 <li><img id="logo-text"  class="logo" src="./public/logo-text-s-fundo.png" alt="" srcset=""></li>
-                <li> <a href="#home">Home</a></li>
-                <li><a href="#home">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li> <a class="alink" href="#home">Home</a></li>
+                <li><a class="alink" href="#services">About</a></li>
+                <li><a class="alink" href="#parceiras">Services</a></li>
+                <li><a class="alink" href="#contact">Contact</a></li>
             </ul>
 
             <ul class="redes-sociais">
@@ -75,14 +77,96 @@
     <main>
         <section id="about">
           <div>
-          
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+             
+              <!-- Slides -->
+              <div class="carousel-inner">
+                  <!-- Slide 1 -->
+                  <div class="carousel-item active">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-md-6 d-flex">
+                                  <div class="align-self-center">
+                                      <h1 style="color: black;" class="display-3">Nosso negócio é sobre</h1>
+                                      <h1 style="color: black;" class="display-3">a tecnologia, sim.</h1>
+                                      <p style="color: black;" class="display-6">Mas é também sobre as operações e relacionamento com os clientes.</p>
+                                      <div style="color: black;" class="display-6">- Michael Dell</div>
+                                  </div>
+                              </div>
+                              <div class="col-md-6 d-none d-md-block">
+                                  <img src="./public/Logo-ft-s-fundo.png" alt="Slide 1" class="w-100" style="max-width: 480px;">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <!-- Slide 2 -->
+                  <div class="carousel-item">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-md-6 d-none d-md-block">
+                                  <img src="./public/Logo-ft-s-fundo.png" alt="Slide 2" class="w-100" style="max-width: 480px;">
+                              </div>
+                              <div class="col-md-6 d-flex">
+                                  <div class="align-self-center">
+                                      <h1 style="color: black;" class="display-3">Nossos valores</h1>
+                                      <p style="color: black;" class="display-6">Tecnologia. Empreendedorismo. Viabilidade. Altruísmo. Liderança. Facilidade</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <!-- Slide 3 -->
+                  <div class="carousel-item">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-md-6 d-flex">
+                                  <div class="align-self-center">
+                                      <h1 style="color: black;" class="display-3">Nossa missão</h1>
+                                      <p style="color: black;" class="display-6">Utilizar a engenharia e a tecnologia para aprimorar as funções de cada empresa, melhorando os índices e reduzindo os prejuízos</p>
+                                  </div>
+                              </div>
+                              <div class="col-md-6 d-none d-md-block">
+                                  <img src="./public/Logo-ft-s-fundo.png" alt="Slide 3" class="w-100" style="max-width: 480px;">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <!-- Slide 4 -->
+                  <div class="carousel-item">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-md-6 d-none d-md-block">
+                                  <img src="./public/Logo-ft-s-fundo.png" alt="Slide 4" class="w-100" style="max-width: 480px;">
+                              </div>
+                              <div class="col-md-6 d-flex">
+                                  <div class="align-self-center">
+                                      <h1 style="color: black;" class="display-3">Nossa visão</h1>
+                                      <p style="color: black;" class="display-6">Nossa principal meta é ver as nossas empresas crescendo de maneira correta, organizada e lucrativa.<br> Desejamos ver nossos colaboradores alcançando mais lugares de prestígio.</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+      
+              <!-- Controles -->
+              <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+              </a>
+              <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Próximo</span>
+              </a>
           </div>
-        </section>
-
-
-
+      </section>
+       
         <section  id="services">
             <div id="main_services">
+              <div class="consert">
                 <div>
                   <h1 class="h-main-luz" style="line-height: 2.5;">Avançe seu empreendimento</h1>
                   <h3 class="h-main-luz">Com a Tevalf, você resolve todos os problemas. <br> Transforme desafios em oportunidades com <br> soluções simples e eficazes.</h3>
@@ -99,6 +183,7 @@
                     <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5"/>
                 </svg>
                 <h2 id="h2-services-fill" class="bi-lightbulb-fill" style="color: rgb(169, 71, 10); ">Innovation</h2>
+              </div>
               </div>
 
               <div>
@@ -119,29 +204,29 @@
               </div>
 
 
-              <div class="empresas-parceiras">
+              <div class="empresas-parceiras"  id="parceiras">
                 <h1>Conheça alguns dos nossos trabalhos</h1>
                 <div class="empresas-parceiras-cards">
-                  <div class="row">
-                    <div class="card">
-                        <a href="http://"><button>Confira</button></a>
+                  <div class="rowi">
+                    <div class="cardi">
+                        <a class="alink" href="http://"><button>Confira</button></a>
                     </div>
-                    <div class="card">
-                       <a href="http://"><button>Confira</button></a>
+                    <div class="cardi">
+                       <a class="alink" href="http://"><button>Confira</button></a>
                     </div>
-                    <div class="card">
-                        <a href="http://"><button>Confira</button></a>
+                    <div class="cardi">
+                        <a class="alink" href="http://"><button>Confira</button></a>
                     </div>
                   </div>
-                  <div class="row">
+                  <div class="rowi">
                     <div class="card-2">
-                        <a href="http://"><button>Confira</button></a>
+                        <a class="alink" href="http://"><button>Confira</button></a>
                     </div>
                     <div class="card-2">
-                        <a href="http://"><button>Confira</button></a>
+                        <a class="alink" href="http://"><button>Confira</button></a>
                     </div>
                     <div class="card-2">
-                        <a href="http://"><button>Confira</button></a>
+                        <a class="alink" href="http://"><button>Confira</button></a>
                     </div>
                   </div>
                 </div>

@@ -9,7 +9,11 @@
     /*O root cria variaveis deixa mais facil entender certas variaveis e pode ser usado quando uma variavel se repete muito*/
 }
 
-
+.alink{
+    text-decoration: none;
+    color: inherit; 
+    font-family: 'Jersey 25'; /*fonte retirada do google fontes*/
+}
 
 html, body{
     width: 100%;
@@ -36,7 +40,7 @@ header{
 
 
 hr{
-margin-top: 40px;
+   margin-top: 40px;
 }
 
 
@@ -60,11 +64,6 @@ header nav ul li{
     
 }
 
-a{
-    text-decoration: none;
-    color: inherit; 
-    font-family: 'Jersey 25'; /*fonte retirada do google fontes*/
-}
 
 a:hover{
     color: rgb(0, 255, 255);
@@ -91,3 +90,4 @@ svg:hover{
     width: 150px;
     border-radius: 0; /*O texto da logo estava saindo redondo por causao do borde radius 100% entao deixei 0 nesse elemento*/
 }
+
