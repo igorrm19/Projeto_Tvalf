@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./CSS/index.css">
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/main.css">
@@ -17,7 +19,6 @@
     <title>Tevalf consultoria</title>
     <link rel="icon" href="./public/Logo-ft-s-fundo.png" type="image/png">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
 <body>
@@ -69,101 +70,47 @@
             </ul>
         </nav>
         <hr>
+       
     </header>
-
 
 
 
     <main>
         <section id="about">
-          <div>
-            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-             
-              <!-- Slides -->
-              <div class="carousel-inner">
-                  <!-- Slide 1 -->
-                  <div class="carousel-item active">
-                      <div class="container">
-                          <div class="row">
-                              <div class="col-md-6 d-flex">
-                                  <div class="align-self-center">
-                                      <h1 style="color: black;" class="display-3">Nosso negócio é sobre</h1>
-                                      <h1 style="color: black;" class="display-3">a tecnologia, sim.</h1>
-                                      <p style="color: black;" class="display-6">Mas é também sobre as operações e relacionamento com os clientes.</p>
-                                      <div style="color: black;" class="display-6">- Michael Dell</div>
-                                  </div>
-                              </div>
-                              <div class="col-md-6 d-none d-md-block">
-                                  <img src="./public/Logo-ft-s-fundo.png" alt="Slide 1" class="w-100" style="max-width: 480px;">
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-      
-                  <!-- Slide 2 -->
-                  <div class="carousel-item">
-                      <div class="container">
-                          <div class="row">
-                              <div class="col-md-6 d-none d-md-block">
-                                  <img src="./public/Logo-ft-s-fundo.png" alt="Slide 2" class="w-100" style="max-width: 480px;">
-                              </div>
-                              <div class="col-md-6 d-flex">
-                                  <div class="align-self-center">
-                                      <h1 style="color: black;" class="display-3">Nossos valores</h1>
-                                      <p style="color: black;" class="display-6">Tecnologia. Empreendedorismo. Viabilidade. Altruísmo. Liderança. Facilidade</p>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-      
-                  <!-- Slide 3 -->
-                  <div class="carousel-item">
-                      <div class="container">
-                          <div class="row">
-                              <div class="col-md-6 d-flex">
-                                  <div class="align-self-center">
-                                      <h1 style="color: black;" class="display-3">Nossa missão</h1>
-                                      <p style="color: black;" class="display-6">Utilizar a engenharia e a tecnologia para aprimorar as funções de cada empresa, melhorando os índices e reduzindo os prejuízos</p>
-                                  </div>
-                              </div>
-                              <div class="col-md-6 d-none d-md-block">
-                                  <img src="./public/Logo-ft-s-fundo.png" alt="Slide 3" class="w-100" style="max-width: 480px;">
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-      
-                  <!-- Slide 4 -->
-                  <div class="carousel-item">
-                      <div class="container">
-                          <div class="row">
-                              <div class="col-md-6 d-none d-md-block">
-                                  <img src="./public/Logo-ft-s-fundo.png" alt="Slide 4" class="w-100" style="max-width: 480px;">
-                              </div>
-                              <div class="col-md-6 d-flex">
-                                  <div class="align-self-center">
-                                      <h1 style="color: black;" class="display-3">Nossa visão</h1>
-                                      <p style="color: black;" class="display-6">Nossa principal meta é ver as nossas empresas crescendo de maneira correta, organizada e lucrativa.<br> Desejamos ver nossos colaboradores alcançando mais lugares de prestígio.</p>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-      
-              <!-- Controles -->
-              <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Anterior</span>
-              </a>
-              <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Próximo</span>
-              </a>
-          </div>
+          <img src="./public/Logo-ft-s-fundo.png" class="about-img">
+
+          <div class="car">  
+            
+            <div id="meuCarrossel" class="carousel slide" data-bs-ride="carousel">
+  
+           <!-- Slides do carrossel -->
+           <div class="carousel-inner">
+             <div class="carousel-item active">
+             <img style="visibility: hidden;" src="./public/Logo-ft-s-fundo.png" class="d-block w-100" id="img-carrosel" alt="...">
+             <div class="carousel-caption d-none d-md-block" id="merd">
+               <h1 id="textoSlide">Tevalf conheça mais...</h1>
+            </div>
+          </div> 
+         </div>
+
+  
+        <!-- Botão anterior -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#meuCarrossel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+       </button>
+  
+       <!-- Botão próximo -->
+       <button class="carousel-control-next" type="button" data-bs-target="#meuCarrossel" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Próximo</span>
+       </button>
+      </div>
+    </div>
       </section>
        
+
+
         <section  id="services">
             <div id="main_services">
               <div class="consert">
@@ -231,8 +178,6 @@
                   </div>
                 </div>
               </div>
-
-
             </div>
 
         </section>
@@ -281,7 +226,8 @@
     </footer>
 </body>
 
-
+<script defer type="text/javascript" src="./src/jquery-3.7.1.min.js"></script>
+<script defer src="./src/carousel.js"></script>
 <script defer src="./src/index.js"></script>   <!-- link javascript --> 
 
 </html>

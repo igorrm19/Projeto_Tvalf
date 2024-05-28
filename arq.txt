@@ -15,3 +15,125 @@
               </div>
             </div>
           </div>
+
+
+          controles padrao
+           <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+              </a>
+              <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Próximo</span>
+              </a>
+
+
+              <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" style="position: absolute;">
+             
+              <!-- Slides -->
+              <div class="carousel-inner">
+                  <!-- Slide 1 -->
+                  <div class="carousel-item active">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-md-6 d-flex">
+                                  <div class="align-self-center">
+                                      <h1 style="color: black;" class="display-3">Nosso negócio é sobre</h1>
+                                      <h1 style="color: black;" class="display-3">a tecnologia, sim.</h1>
+                                      <p style="color: black;" class="display-6">Mas é também sobre as operações e relacionamento com os clientes.</p>
+                                      <div style="color: black;" class="display-6">- Michael Dell</div>
+                                  </div>
+                              </div>
+                              <div class="col-md-6 d-none d-md-block">
+                                  <img src="./public/Logo-ft-s-fundo.png" alt="Slide 1" class="w-100" style="max-width: 480px;">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <!-- Slide 2 -->
+                  <div class="carousel-item">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-md-6 d-none d-md-block">
+                                  <img src="./public/Logo-ft-s-fundo.png" alt="Slide 2" class="w-100" style="max-width: 480px;">
+                              </div>
+                              <div class="col-md-6 d-flex">
+                                  <div class="align-self-center">
+                                      <h1 style="color: black;" class="display-3">Nossos valores</h1>
+                                      <p style="color: black;" class="display-6">Tecnologia. Empreendedorismo. Viabilidade. Altruísmo. Liderança. Facilidade</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <!-- Slide 3 -->
+                  <div class="carousel-item">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-md-6 d-flex">
+                                  <div class="align-self-center">
+                                      <h1 style="color: black;" class="display-3">Nossa missão</h1>
+                                      <p style="color: black;" class="display-6">Utilizar a engenharia e a tecnologia para aprimorar as funções de cada empresa, melhorando os índices e reduzindo os prejuízos</p>
+                                  </div>
+                              </div>
+                              <div class="col-md-6 d-none d-md-block">
+                                  <img src="./public/Logo-ft-s-fundo.png" alt="Slide 3" class="w-100" style="max-width: 480px;">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <!-- Slide 4 -->
+                  <div class="carousel-item">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-md-6 d-none d-md-block">
+                                  <img src="./public/Logo-ft-s-fundo.png" alt="Slide 4" class="w-100" style="max-width: 480px;">
+                              </div>
+                              <div class="col-md-6 d-flex">
+                                  <div class="align-self-center">
+                                      <h1 style="color: black;" class="display-3">Nossa visão</h1>
+                                      <p style="color: black;" class="display-6">Nossa principal meta é ver as nossas empresas crescendo de maneira correta, organizada e lucrativa.<br> Desejamos ver nossos colaboradores alcançando mais lugares de prestígio.</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+      
+              <!-- Controles -->
+              <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden" >Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </a>
+
+
+
+
+
+    $(document).ready(function () {
+        $('#myCarousel').carousel({
+            interval: false // Para desativar a rotação automática
+        });
+     
+        // Função para passar para o próximo slide
+        $('.carousel-control-next').click(function () {
+            $('#myCarousel').carousel('next');
+        });
+     
+        // Função para passar para o slide anterior
+        $('.carousel-control-prev').click(function () {
+            $('#myCarousel').carousel('prev');
+        });
+     });
+
+
+
+link de imagens aleatorias
+     https://picsum.photos/1280/420?random=1

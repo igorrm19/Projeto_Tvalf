@@ -20,11 +20,11 @@
         alterarCor(this)
     };
 
-
    
     console.log(Luz);
 
 
 
 
-    
+
+

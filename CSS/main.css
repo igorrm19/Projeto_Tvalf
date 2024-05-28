@@ -1,4 +1,8 @@
 
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
+
 
 :root {
     --cor-principal: rgb(7, 7, 110), rgb(15, 15, 180);
@@ -14,6 +18,9 @@
 
 #about{
     height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -102,20 +109,37 @@
 }
 
 
+.carousel{
+    margin-top: 0px;
+    margin-left: -1300px;
+}
 
-.carousel-indicators {
-    list-style: none;
-    display: flex;
-    justify-content: center;
+.carousel-control-prev{
+   margin-left: 40px;
+   margin-top: -30px;
 }
-.carousel-indicators li {
-    background-color: #bbb;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
+
+
+.carousel-control-next{
+    margin-top: -30px;
+    margin-right: -80px;
 }
-.carousel-indicators .active {
-    background-color: #000000;
+
+#textoSlide{
+    margin-top: -650px;
+    margin-left: 300px;
 }
+
+.carousel-inner{
+    margin-top: -200px;
+    margin-left: -400px;
+}
+
+.about-img{
+    opacity: 0.9;
+    margin-top: -200px;
+    margin-left: 600px;
+}
+
+
+
