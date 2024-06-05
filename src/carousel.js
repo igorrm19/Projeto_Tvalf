@@ -1,9 +1,11 @@
-    
- 
+
+       const id = document.getElementById('textoSlide')
+       var nome = prompt("Qual o seu nome?")
 
 
+       id.innerHTML = `<p>Bem vindo ${nome}</p`
 
-        // Array com os textos que serão exibidos
+        // Array com os htmls que serão exibidos
         var textos = [
         `<h1>Nosso negócio é sobre </h1>`
         +`<h1>a tecnologia, sim.</h1>`
@@ -24,7 +26,6 @@
       ];
         var indiceAtual = 0;
         
-
 
 
         // Função para mudar o texto ao clicar no botão próximo

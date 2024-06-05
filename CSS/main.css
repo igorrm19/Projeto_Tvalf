@@ -28,7 +28,7 @@
 #services{
     height: 1800px;
     background: linear-gradient(var(--cor-secundaria));
-    margin-top: -122px; /*Teve um pequeno bug na parte de services então tive que subir o lemento para cima*/
+    margin-top: -162px; /*Teve um pequeno bug na parte de services então tive que subir o lemento para cima*/
 }
 
 

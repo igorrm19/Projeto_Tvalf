@@ -13,8 +13,8 @@
             Luz.style.color = cor
         }
 
-
     }
+
 
     const Luz = document.getElementById('luz').onclick = function (){
         alterarCor(this)
@@ -27,4 +27,4 @@
 
 
 
-
+    
