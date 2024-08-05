@@ -1,3 +1,10 @@
+
+    import './teste'
+    
+    
+    Name('igor')
+  
+
     let cor = "yellow"
     let contador = 0
 
